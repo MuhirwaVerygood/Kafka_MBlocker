@@ -1,0 +1,12 @@
+
+server:
+  port: 8900
+
+spring:
+  application:
+    name: Kafka-example
+  kafka:
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    bootstrap-servers: kali.mineduc.co.rw:9092
